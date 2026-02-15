@@ -37,6 +37,10 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/svg-componentize.git"
+  },
   "dependencies": {
     "@prettier/sync": "^0.6.1",
     "chalk": "^5.3.0",
