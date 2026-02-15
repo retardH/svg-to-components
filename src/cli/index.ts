@@ -199,7 +199,6 @@ program
         props: options.props,
         typescript: options.typescript,
       });
-      writeFileSync;
       const totalComponents = generated.reduce(
         (sum, g) => sum + g.results.length,
         0,

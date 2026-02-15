@@ -1,5 +1,5 @@
 {
-  "name": "svg-component-generator",
+  "name": "svg-componentize",
   "version": "1.0.0",
   "description": "CLI tool to convert SVG files into React and Vue components",
   "type": "module",
