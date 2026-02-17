@@ -54,11 +54,9 @@ export class ReactGenerator extends BaseGenerator {
     if (!includeProps) {
       const jsxContent = this.serializeSvgToJsx(svgElement, false);
       return `export function ${name}() {
-  return (
-${jsxContent}
-  );
-}
-`;
+                return (${jsxContent});
+                }
+              `;
     }
 
     const jsxContent = this.serializeSvgToJsx(svgElement, true);
